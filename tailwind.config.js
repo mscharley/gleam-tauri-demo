@@ -2,9 +2,13 @@
 export default {
 	content: [
 		"./index.html",
-		"./build/dev/javascript/notes/**/*.{js,ts,jsx,tsx}",
+		"./priv/**/*.{mjs,ts,jsx,tsx}",
+		"./src/**/*.gleam",
 	],
 	theme: {
+		fontFamily: {
+			demo: ['Inter', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
+		},
 		extend: {},
 	},
 	plugins: [],
